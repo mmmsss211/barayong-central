@@ -207,9 +207,9 @@ jQuery(function ($) {
 
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
+            $(".navbar-fixed-top").addClass("top-nav-collapse"), $(".deped-logo").addClass("deped-collapse");
         } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            $(".navbar-fixed-top").removeClass("top-nav-collapse"), $(".deped-logo").removeClass("deped-collapse");
         }
     });
 
