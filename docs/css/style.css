@@ -974,8 +974,6 @@ FOOTER WIDGET WRAPPER
     background-color: #fff;
 }
 
-
-.footer-widget ul {}
 .footer-widget ul li {
     line-height: 34px;
 }
@@ -1009,7 +1007,6 @@ SOCIAL LINK
 .social-link {
     margin-top: 40px;
 }
-.social-link ul{}
 .social-link ul li{
     display: inline-block;
     margin: 0 2px 0 0;
@@ -1222,8 +1219,6 @@ ABOUT US PAGE
     text-transform: capitalize;
 }
 
-
-ul.joblist-link {}
 ul.joblist-link li{
     margin-bottom: 8px;
 }
@@ -1249,8 +1244,7 @@ ul.joblist-link li a:hover{
     background-size: cover;
     padding: 60px;
 }
-.download-box {}
-.download-box ul{}
+
 .download-box ul li{
     padding: 0 10px 0 0;
     width: 32.8%;
@@ -1314,7 +1308,6 @@ ul.joblist-link li a:hover{
 /* ----------------------------------------------------------------
 ABOUT ME PAGE
 -------------------------------------------------------------------*/
-.info-in-short {}
 .info-in-short img{
     width: 100%;
 }
@@ -1346,7 +1339,6 @@ BLOG PAGE
     margin: 0 0 60px;
     border-bottom: 2px solid #e3e3e3;
 }
-.entry-header {}
 
 /*For Sticky Post*/
 .sticky .entry-header {
@@ -1368,7 +1360,6 @@ BLOG PAGE
     color: #b9b9b9;
     margin-bottom: 3px;
 }
-.blog-post-wrapper .entry-meta ul{}
 .blog-post-wrapper .entry-meta ul li{
     position: relative;
     padding-left: 12px;
@@ -1622,7 +1613,6 @@ SINGLE BLOG
 
 /*BLOG SIDEBAR*/
 
-.sidebar-wrapper {}
 .sidebar-wrapper .widget{
     margin-bottom: 40px;
     border: 2px solid #e3e3e3;
@@ -1692,10 +1682,6 @@ SINGLE BLOG
     box-shadow: none;
     background: transparent;
 }
-
-
-.sidebar-tab ul li{}
-
 
 .widget.widget_tag_cloud ul {
     padding-bottom: 15px;
@@ -1859,7 +1845,6 @@ PORTFOLIO PAGE
 }
 
 /*Portfolio Single Page*/
-.portfolio-content {}
 .portfolio-content img{
     margin-bottom: 30px;
 }
@@ -2185,11 +2170,6 @@ Offcanvas Style
     font-weight : 400;
     padding-left: 30px;
 }
-
-.offcanvas-menu ul li:first-child a {
-
-}
-
 
 .offcanvas-menu ul li a:hover,
 .offcanvas-menu ul li.active a {
@@ -2547,4 +2527,10 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
     margin: 0;
     text-align: center;
     top: 65%;
+}
+
+.deped-logo {
+
+    height: 30px;
+    width: auto;
 }
